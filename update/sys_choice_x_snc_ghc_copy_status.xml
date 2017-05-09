@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_snc_ghc_copy" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loaned</label>
+            <language>en</language>
+            <name>x_snc_ghc_copy</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 15:08:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a487a36b4a232007f44397a70fef4ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 15:08:12</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Available</label>
+            <language>en</language>
+            <name>x_snc_ghc_copy</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 15:08:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db183a36b4a232007f44397a70fef462</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 15:30:08</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_snc_ghc_copy</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 15:08:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9e483a36b4a232007f44397a70fef463</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="GitHub Companion" source="x_snc_ghc">b9d683a9136db6009718b9b76144b01d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="GitHub Companion">b9d683a9136db6009718b9b76144b01d</sys_scope>
+            <sys_update_name>sys_choice_x_snc_ghc_copy_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 15:30:08</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

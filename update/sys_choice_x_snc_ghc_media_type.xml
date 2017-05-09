@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_snc_ghc_media" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Book</label>
+            <language>en</language>
+            <name>x_snc_ghc_media</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 14:57:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22a5bef2b4a232007f44397a70fef494</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 14:57:53</sys_updated_on>
+            <value>Book</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Book</label>
+            <language>en</language>
+            <name>x_snc_ghc_media</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 14:57:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04d5fef2b4a232007f44397a70fef43d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 15:28:29</sys_updated_on>
+            <value>Book</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Movie</label>
+            <language>en</language>
+            <name>x_snc_ghc_media</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 14:58:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6be5fef2b4a232007f44397a70fef445</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 15:28:29</sys_updated_on>
+            <value>Movie</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_snc_ghc_media</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-09 14:57:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b7d5fef2b4a232007f44397a70fef441</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="GitHub Companion" source="x_snc_ghc">b9d683a9136db6009718b9b76144b01d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="GitHub Companion">b9d683a9136db6009718b9b76144b01d</sys_scope>
+            <sys_update_name>sys_choice_x_snc_ghc_media_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-09 15:28:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
